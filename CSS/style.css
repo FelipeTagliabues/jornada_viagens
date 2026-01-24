@@ -1,5 +1,27 @@
+:root{
+    /* Cores de Fundo */
+    --background-primary-color: #FFFFFF;
+    --background-secundary-color: #F5F5F5;
+    --background-tertiary-color: #000000;
+
+    /* Cores dos botões */
+
+    --botton-primary-color: #B81515;
+    --botton-secundary-color: #8F0101;
+
+    /* Cores de texto */
+
+    --text-primary-color:#222222;
+    --text-secundary-color: #FFFFFF;
+}
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+h1{
+    color: var(--botton-secundary-color);
 }
