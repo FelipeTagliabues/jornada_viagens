@@ -3,19 +3,19 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: start;
+    align-items: center;
     padding: 38px 24px;
 }
 
 .logo{
-    display: inline-block;
     width: 68px;
     height: 64px;
 }
 
-.navegation_menu{
-    margin-top: 24px;
+input[type="checkbox"]:checked ~ nav{
+    display: block;
 }
+
 nav{
     display: none;
 }
