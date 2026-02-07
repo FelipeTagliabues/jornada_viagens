@@ -68,7 +68,14 @@ body{
 }
 
 @media screen and (min-width:768px){
-.section_tittle h2{
-    font-size: 32px;
+    .section_tittle h2{
+        font-size: 32px;
+    }
 }
+
+@media screen and (min-width:1024px){
+    .button:hover{
+        background-color: var(--botton-secundary-color);
+
+    };
 }
