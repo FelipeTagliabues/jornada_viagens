@@ -35,4 +35,29 @@
 
 body{
     font-family: "Montserrat";
+    color: var(--text-primary-color);
+}
+
+.section_tittle h2{
+    font-size: 28px;
+    font-weight: var(--title_weight);
+    margin: 0;
+    text-align: center;
+}
+
+.section_tittle hr{
+    height: 4px;
+    width: 180px;
+    background-color: var(--botton-primary-color);
+    border: none;
+    margin: 16px auto 32px;
+}
+
+
+@media screen and (min-width:768px){
+
+.section_tittle h2{
+    font-size: 32px;
+}
+
 }
