@@ -54,10 +54,21 @@ body{
 }
 
 
-@media screen and (min-width:768px){
+.button{
+    display: inline-block;
+    width: 260px;
+    height: 64px;
+    line-height: 64px;
+    color: var(--background-secundary-color);
+    font-weight: var(--title_weight);
+    font-size: 20px;
+    background-color: var(--botton-primary-color);
+    border-radius: 16px;
+    text-decoration: none;
+}
 
+@media screen and (min-width:768px){
 .section_tittle h2{
     font-size: 32px;
 }
-
 }
