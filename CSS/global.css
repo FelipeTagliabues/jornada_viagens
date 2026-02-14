@@ -38,6 +38,10 @@ body{
     color: var(--text-primary-color);
 }
 
+.section_tittle{
+    margin-top: 88px;
+}
+
 .section_tittle h2{
     font-size: 28px;
     font-weight: var(--title_weight);
