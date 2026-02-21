@@ -20,7 +20,7 @@
     gap: 24px;
 }
 
-.testimonial-content footer .profile-content h4{
+.testimonial-content footer .profile-content h3{
     font-size: 20px;
     line-height: 32px;
     font-weight: var(--title-weight);
@@ -43,7 +43,7 @@
         font-size: 14px;
     }
 
-    .testimonial-content footer .profile-content h4{
+    .testimonial-content footer .profile-content h3{
         font-size: 16px;
         line-height: 48px;
     }
@@ -59,7 +59,7 @@
         font-size: 16px;
     }
 
-    .testimonial-content footer .profile-content h4{
+    .testimonial-content footer .profile-content h3{
         font-size: 20px;
         line-height: 32px;
     }
