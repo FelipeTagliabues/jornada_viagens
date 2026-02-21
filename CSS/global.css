@@ -17,7 +17,7 @@
   --text-secondary-color: #ffffff;
 
   --title-weight: 700;
-  --text-weight: 400;
+  --text-weight: 300;
   --menu-text-weight: 500;
 }
 
@@ -63,7 +63,7 @@ section.bottom-hero {
   margin: 0;
   text-align: center;
 }
-.section-title hr {
+.section-title hr, .hero-content hr{
   width: 180px;
   height: 4px;
   background-color: var(--secondary-color);
