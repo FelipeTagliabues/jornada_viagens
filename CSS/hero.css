@@ -26,10 +26,11 @@
 .travel-package .hero-img{
   background: url(../img/travel-packages/japan-bg-hero-tablet.png) no-repeat;
   background-size: cover;
+  margin-bottom: 88px;
 }
 
 .travel-package .hero-content{
-  padding: 65px 24px;
+  padding: 45px 24px;
   color: var(--background-primary-color);
 }
 
